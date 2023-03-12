@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16442" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:44 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16442" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:44 SGT">
+      <class name="com.jupiter.automation.testsuites.Test1">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="config" is-config="true" duration-ms="5" started-at="2023-03-13T00:11:06 SGT" finished-at="2023-03-13T00:11:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="init" is-config="true" duration-ms="21269" started-at="2023-03-13T00:11:06 SGT" finished-at="2023-03-13T00:11:27 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="genReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="genReport" is-config="true" duration-ms="437" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:28 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genReport -->
+        <test-method status="PASS" signature="createtest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="createtest" is-config="true" duration-ms="17" started-at="2023-03-13T00:11:28 SGT" finished-at="2023-03-13T00:11:28 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.automation.testsuites.Test1.Test1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtest -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="Test1" duration-ms="13822" started-at="2023-03-13T00:11:28 SGT" finished-at="2023-03-13T00:11:42 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="flushReport" is-config="true" duration-ms="966" started-at="2023-03-13T00:11:42 SGT" finished-at="2023-03-13T00:11:43 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="down()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="down" is-config="true" duration-ms="1121" started-at="2023-03-13T00:11:43 SGT" finished-at="2023-03-13T00:11:44 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- com.jupiter.automation.testsuites.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
