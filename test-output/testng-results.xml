@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16442" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:44 SGT">
+  <suite name="Default suite" duration-ms="1545" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:32 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16442" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:44 SGT">
+    <test name="Default test" duration-ms="1545" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:32 SGT">
       <class name="com.jupiter.automation.testsuites.Test1">
-        <test-method status="PASS" signature="config()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="config" is-config="true" duration-ms="5" started-at="2023-03-13T00:11:06 SGT" finished-at="2023-03-13T00:11:06 SGT">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="config" is-config="true" duration-ms="6" started-at="2023-03-13T00:29:11 SGT" finished-at="2023-03-13T00:29:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="init" is-config="true" duration-ms="21269" started-at="2023-03-13T00:11:06 SGT" finished-at="2023-03-13T00:11:27 SGT">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="init" is-config="true" duration-ms="18744" started-at="2023-03-13T00:29:11 SGT" finished-at="2023-03-13T00:29:30 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="genReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="genReport" is-config="true" duration-ms="437" started-at="2023-03-13T00:11:27 SGT" finished-at="2023-03-13T00:11:28 SGT">
+        <test-method status="PASS" signature="genReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="genReport" is-config="true" duration-ms="126" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:30 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genReport -->
-        <test-method status="PASS" signature="createtest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="createtest" is-config="true" duration-ms="17" started-at="2023-03-13T00:11:28 SGT" finished-at="2023-03-13T00:11:28 SGT">
+        <test-method status="PASS" signature="createtest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="createtest" is-config="true" duration-ms="7" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:30 SGT">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createtest -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="Test1" duration-ms="13822" started-at="2023-03-13T00:11:28 SGT" finished-at="2023-03-13T00:11:42 SGT">
+        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="Test1" duration-ms="23" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:30 SGT">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Can not set io.appium.java_client.MobileElement field com.jupiter.automation.pages.HomePage.btn_inyPay to com.sun.proxy.$Proxy14]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field com.jupiter.automation.pages.HomePage.btn_inyPay to com.sun.proxy.$Proxy14
+at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source)
+at sun.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source)
+at java.lang.reflect.Field.set(Unknown Source)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:92)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:79)
+at com.jupiter.automation.pages.HomePage.<init>(HomePage.java:26)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at java.lang.Class.newInstance(Unknown Source)
+at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:131)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)
+at com.jupiter.automation.testsuites.Test1.Test1(Test1.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="flushReport" is-config="true" duration-ms="966" started-at="2023-03-13T00:11:42 SGT" finished-at="2023-03-13T00:11:43 SGT">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="flushReport" is-config="true" duration-ms="368" started-at="2023-03-13T00:29:30 SGT" finished-at="2023-03-13T00:29:31 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
-        <test-method status="PASS" signature="down()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="down" is-config="true" duration-ms="1121" started-at="2023-03-13T00:11:43 SGT" finished-at="2023-03-13T00:11:44 SGT">
+        <test-method status="PASS" signature="down()[pri:0, instance:com.jupiter.automation.testsuites.Test1@c540f5a]" name="down" is-config="true" duration-ms="982" started-at="2023-03-13T00:29:31 SGT" finished-at="2023-03-13T00:29:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- down -->

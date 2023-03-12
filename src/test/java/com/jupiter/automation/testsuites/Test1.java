@@ -18,6 +18,7 @@ public class Test1 extends Initializer {
     public void Test1() throws InterruptedException {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.clickPayLater();
+        
   }
     
    

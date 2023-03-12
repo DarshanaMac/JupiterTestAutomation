@@ -26,9 +26,9 @@ public class Initializer {
 	public static AppiumDriver driver;
     static File file;
 
-   static ExtentSparkReporter htmlReporter;
-    static ExtentReports extent = new ExtentReports();
-    static ExtentTest test1;
+  public static ExtentSparkReporter htmlReporter;
+  public static ExtentReports extent = new ExtentReports();
+  public  static ExtentTest test1;
 
     /**
      * Generate Report
